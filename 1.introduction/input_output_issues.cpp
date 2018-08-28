@@ -1,6 +1,6 @@
 /*ios::sync_with_stdio(0);
 cin.tie(0);*/
-// this was not working .... it is supposed to make takingkk the inputs easier.
+// this was not working .... it is supposed to make takingkk the inputs faster.
 
 #include<bits/stdc++.h> // this line includes all the header files / libraries of c++. good for competitive programming.
 using namespace std; // for using all the classes and functions of the standard library without any conflict.
