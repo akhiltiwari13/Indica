@@ -1,1 +1,0 @@
-add_executable(weird_algorithm weird_algorithm)
