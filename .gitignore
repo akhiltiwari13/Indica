@@ -33,3 +33,9 @@
 *.swp
 *.swo
 
+# Binary dirs.
+.vscode/*
+.clangd/*
+.ccls/*
+build/*
+tags

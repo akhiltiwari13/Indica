@@ -5,7 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 MESSAGE(STATUS "***competitive_programming*** ${PROJECT_SOURCE_DIR}")
 
-add_subdirectory(01_introductory_problems)
-add_subdirectory(array)
+add_subdirectory(cses.fi_problemset)
+add_subdirectory(the_book)
+add_subdirectory(eopi)
 
 MESSAGE(STATUS "***competitive_programming*** ${PROJECT_SOURCE_DIR}")
