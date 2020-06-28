@@ -19,7 +19,8 @@ void dfs(const vector<vector<int>> &graph, int node) {
 int main() {
 
   // represent a graph network.
-  vector<vector<int>> adjacencyList = {{}, {2, 4}, {3, 5}, {2, 5}, {1}, {2, 3}};
+  vector<vector<int>> adjacencyList = {{},     {2, 4}, {1, 3, 5},
+                                       {2, 5}, {1},    {2, 3}};
 
   dfs(adjacencyList, 1); // graph and the start node.
   return 0;
