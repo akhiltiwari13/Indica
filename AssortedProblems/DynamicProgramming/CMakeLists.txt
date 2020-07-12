@@ -1,0 +1,3 @@
+add_executable(LongestCommonSubstringTopDownDP LongestCommonSubstringTopDownDP.cpp)
+add_executable(RodCuttingBottomUpDP RodCuttingBottomUpDP.cpp)
+add_executable(RodCuttingTopDownDP RodCuttingTopDownDP.cpp)

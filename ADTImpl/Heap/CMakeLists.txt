@@ -1,0 +1,9 @@
+add_executable(CandyDistribution CandyDistribution.cpp)
+add_executable(MaxDifference MaxDifference.cpp)
+add_executable(MaximizeStockProfit MaximizeStockProfit.cpp)
+add_executable(MissingElementFromArrayPair MissingElementFromArrayPair.cpp)
+add_executable(OddOccurrence OddOccurrence.cpp)
+add_executable(SingleOccurrence SingleOccurrence.cpp)
+CMakeLists.txt
+MaxHeapImpl.cpp
+MaxHeapTestCase.txt

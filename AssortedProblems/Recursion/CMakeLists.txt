@@ -1,0 +1,4 @@
+add_executable(JosephusProblem JosephusProblem.cpp)
+add_executable(GeneralizedJosephus GeneralizedJosephus.cpp)
+add_executable(Permutations Permutations.cpp)
+add_executable(LongestCommonSubsequenceRecursive LongestCommonSubsequenceRecursive.cpp)
