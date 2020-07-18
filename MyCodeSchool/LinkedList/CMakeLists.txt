@@ -1,0 +1,4 @@
+add_executable(basic_linked_list_implementation basic_linked_list_implementation.cpp)
+add_executable(linked_list_operations linked_list_operations.cpp)
+add_executable(linked_list_insertion linked_list_insertion.cpp)
+add_executable(doubly_linked_list_operations doubly_linked_list_operations.cpp)

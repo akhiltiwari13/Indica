@@ -1,3 +1,8 @@
+cmake_minimum_required(VERSION 3.10)
+project(CPP_FEATURES)
+
+set(CMAKE_CXX_STANDARD 17)
+
 add_executable(CandyDistribution CandyDistribution.cpp)
 add_executable(MaxDifference MaxDifference.cpp)
 add_executable(MaximizeStockProfit MaximizeStockProfit.cpp)

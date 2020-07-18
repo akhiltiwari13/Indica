@@ -1,0 +1,7 @@
+add_executable(arrayAsFunctArg arrayAsFunctArg.cpp)
+add_executable(charArrayPointer charArrayPointer.cpp)
+add_executable(integerArrayPointer integerArrayPointer.cpp)
+add_executable(outputParams outputParams.cpp)
+add_executable(pointerExperiments pointerExperiments.cpp)
+add_executable(pointerToPointer pointerToPointer.cpp)
+add_executable(pointerTypes pointerTypes.cpp)

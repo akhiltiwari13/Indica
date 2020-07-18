@@ -1,0 +1,5 @@
+add_executable(exponentiation exponentiation.cpp)
+add_executable(factorial factorial.cpp)
+add_executable(fibonacci_rec_with_memoization fibonacci_rec_with_memoization.cpp)
+add_executable(fibonacci_series fibonacci_series.cpp)
+add_executable(modular_exponentiation modular_exponentiation.cpp)

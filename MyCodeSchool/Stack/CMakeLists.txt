@@ -1,0 +1,4 @@
+add_executable(reversing_a_linked_list_using_explicit_stack reversing_a_linked_list_using_explicit_stack.cpp)
+add_executable(reversing_a_string_using_stack reversing_a_string_using_stack.cpp)
+add_executable(stack_impl_using_arrays stack_impl_using_arrays.cpp)
+add_executable(stack_impl_using_linked_list stack_impl_using_linked_list.cpp)
