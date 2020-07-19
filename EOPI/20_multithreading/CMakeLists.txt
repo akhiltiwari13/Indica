@@ -1,0 +1,8 @@
+add_executable(Semaphore.cpp Semaphore.cpp)
+# add_executable(decode_spreadsheet decode_spreadsheet.cpp)
+# add_executable(is_palindrome is_palindrome.cpp)
+# add_executable(phone_number_to_string phone_number_to_string.cpp)
+# add_executable(replace_and_remove replace_and_remove.cpp)
+# add_executable(string_int_interconversion string_int_interconversion.cpp)
+# add_executable(string_reversal_by_words string_reversal_by_words.cpp)
+# add_executable(variant_telex_encoding variant_telex_encoding.cpp)
