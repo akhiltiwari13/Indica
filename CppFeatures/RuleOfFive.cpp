@@ -2,8 +2,6 @@
  * File              : demo_move_semantics.cpp
  * Author            : akhil <akhiltiwari.13@gmail.com>
  * Date              : 29.04.2018
- * Last Modified Date: 29.04.2018
- * Last Modified By  : akhil <akhiltiwari.13@gmail.com>
  */
 
 #include <iostream>
@@ -176,7 +174,7 @@ int main( int argc, char *argv[])
 		return 0;
 	}
 	else{
-		cout<<"Specify length as argument to the program."<<endl;
+            std::cout<<"Specify length as argument to the program."<<std::endl;
 		return 0;
 	}
 }

@@ -1,0 +1,1 @@
+add_executable(string_hash string_hash_func.cpp)

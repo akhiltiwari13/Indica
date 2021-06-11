@@ -11,31 +11,27 @@
 
 # Compiled Dynamic libraries
 *.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
 
 # Compiled Static libraries
-*.lai
-*.la
 *.a
-*.lib
 
 # Executables
-*.exe
 *.out
-*.app
-
-# Swap files
-*.swp
-*.swo
 
 # Binary dirs.
 .vscode/*
 .clangd/*
 .ccls/*
 build/*
+
+# Workspace files.
+.cache/
+compile_commands.json
+
+# Editor files
 tags
+Session.vim
+# Swap files
+*.swp
+*.swo
+
