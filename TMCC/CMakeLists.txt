@@ -25,7 +25,7 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 # add_subdirectory(libs/curl)
 # add_subdirectory(libs/curlcpp)
 
-# add_subdirectory(chapter01/problem_01)
+add_subdirectory(chapter01/problem_01)
 # add_subdirectory(chapter01/problem_02)
 # add_subdirectory(chapter01/problem_03)
 # add_subdirectory(chapter01/problem_04)
