@@ -15,6 +15,7 @@ add_executable(Promise Promise.cpp)
 add_executable(Mutex Mutex.cpp)
 add_executable(ExpFeatures ExpFeatures.cpp)
 add_executable(Inheritance Inheritance.cpp)
+add_executable(stl stl.cpp)
 
 #link thread libraries.
 target_link_libraries(Threads PUBLIC pthread)
