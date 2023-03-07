@@ -13,6 +13,8 @@ add_executable(Threads Threads.cpp)
 add_executable(LowLevelThreadFeature LowLevelThreadFeature.cpp)
 add_executable(Promise Promise.cpp)
 add_executable(Mutex Mutex.cpp)
+add_executable(ExpFeatures ExpFeatures.cpp)
+add_executable(Inheritance Inheritance.cpp)
 
 #link thread libraries.
 target_link_libraries(Threads PUBLIC pthread)
