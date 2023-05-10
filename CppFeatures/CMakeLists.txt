@@ -3,6 +3,8 @@ project(CPP_FEATURES)
 
 set(CMAKE_CXX_STANDARD 20)
 
+add_subdirectory(templates)
+
 add_executable(ComptProg ComptProg.cpp)
 add_executable(MoveSemantics MoveSemantics.cpp)
 # add_executable(RuleOfFive RuleOfFive.cpp)
@@ -16,6 +18,10 @@ add_executable(Mutex Mutex.cpp)
 add_executable(ExpFeatures ExpFeatures.cpp)
 add_executable(Inheritance Inheritance.cpp)
 add_executable(stl stl.cpp)
+add_executable(functors_lambda_fptrs functors_lambda_fptrs.cpp)
+# target_compile_options(functors_lambda_fptrs PRIVATE -E -P)
+# target_compile_options(functors_lambda_fptrs PRIVATE -save-temps) #for viewing compiler generated code using clang compiler
+# target_compile_options(functors_lambda_fptrs PRIVATE -Xclang -ast-print -fsyntax-only -save-temps) #for viewing compiler generated code using clang compiler
 
 #link thread libraries.
 target_link_libraries(Threads PUBLIC pthread)

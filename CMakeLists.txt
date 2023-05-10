@@ -29,3 +29,5 @@ add_subdirectory(CppFeatures)
 add_subdirectory(AssortedProblems)
 add_subdirectory(TMCC)
 add_subdirectory(malloncpp)
+add_subdirectory(nptel_cpp)
+

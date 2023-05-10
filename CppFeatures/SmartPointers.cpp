@@ -54,4 +54,6 @@ int main()
 
     B b3=b1;
     b2 = b1; 
+    std::unique_ptr<int>uip = std::make_unique<int>(5);
+    uip.reset();
 }
