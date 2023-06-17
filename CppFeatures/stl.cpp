@@ -3,6 +3,7 @@
 #include <array>
 #include <list>
 #include <forward_list>
+#include <algorithm>
 
 template <typename T>
 void printElements (const T& coll)
