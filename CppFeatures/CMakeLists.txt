@@ -20,6 +20,7 @@ add_executable(boost_multiindex Boost_multi_index_demo.cpp)
 # target_compile_options(functors_lambda_fptrs PRIVATE -E -P)
 # target_compile_options(functors_lambda_fptrs PRIVATE -save-temps) #for viewing compiler generated code using clang compiler
 # target_compile_options(functors_lambda_fptrs PRIVATE -Xclang -ast-print -fsyntax-only -save-temps) #for viewing compiler generated code using clang compiler
+add_executable(constexprGCD ConstexprGCD.cpp)
 
 target_link_libraries(RuleOfThree PRIVATE ${Boost_LIBRARIES})
 target_link_libraries(boost_multiindex PRIVATE ${Boost_LIBRARIES})

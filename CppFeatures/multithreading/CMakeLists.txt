@@ -4,6 +4,7 @@ add_executable(Promise Promise.cpp)
 add_executable(Mutex Mutex.cpp)
 
 add_executable(stdthreadbasics01 stdthreadbasics01.cpp)
+add_executable(TestAndSetLockIdiom TestAndSetLockIdiom.cpp)
 
 
 
