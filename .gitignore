@@ -23,6 +23,8 @@
 .clangd/*
 .ccls/*
 build/*
+.ccls-cache/*
+bin/
 
 # Workspace files.
 .cache/
